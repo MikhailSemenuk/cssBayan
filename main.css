@@ -24,6 +24,9 @@ h1{
     padding: 10px 15px;
 
     cursor: pointer;
+
+    /* icon */
+
 }
 
 .item_input:checked + .item_container{
