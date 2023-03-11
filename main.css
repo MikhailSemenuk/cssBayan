@@ -1,0 +1,41 @@
+body{
+    background-color: #2C3333;
+    color: #CBE4DE;
+}
+
+h1{
+    text-align: center;
+}
+
+.accordion{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.item{
+    border: 1px solid  #ffffff;  /* TODO: debag only */
+}
+
+.item_title{
+    display: block;
+    font-weight: bold;
+
+    padding: 10px 15px;
+
+    cursor: pointer;
+}
+
+.item_input:checked + .item_container{
+    display: block;
+}
+
+.item_input{
+    width: 0;
+    height: 0;
+}
+
+.item_container{
+    display: none;
+    border: 1px solid  #ffffff;  /* TODO: debag only */
+}
