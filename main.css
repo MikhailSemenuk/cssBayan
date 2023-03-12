@@ -3,6 +3,27 @@ body {
     color: #CBE4DE;
 }
 
+
+@media (max-width: 568px) {
+    body {
+        font-size: 150%;
+    }
+ }
+
+
+@media (min-width: 569px) and (max-width: 1180px) {
+    body {
+        font-size: 130%;
+    }
+ }
+
+@media (min-width: 1181px) {
+    body {
+        font-size: 120%;
+    }
+ }
+
+
 h1 {
     text-align: center;
 }
@@ -25,7 +46,6 @@ h1 {
 
 .item {
     border: 1px solid #ffffff;
-    /* TODO: debag only */
 }
 
 .item_title {
@@ -35,8 +55,6 @@ h1 {
     padding: 10px 15px;
 
     cursor: pointer;
-
-    /* icon */
 }
 
 .item_input:checked+.item_container {
@@ -77,5 +95,6 @@ h1 {
 .item_container {
     display: none;
     border: 1px solid #ffffff;
-    /* TODO: debag only */
+
+    cursor: pointer;
 }
